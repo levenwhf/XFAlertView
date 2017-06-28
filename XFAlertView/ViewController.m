@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "XFAlertView.h"
+
 @interface ViewController ()
 
 @end
@@ -25,5 +27,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)click:(id)sender
+{
+    XFAlertView *alert = [[XFAlertView alloc]initWithTitle:@"标题"
+                                                       Msg:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
+                                            CancelBtnTitle:@"确定"
+                                                OKBtnTitle:@"取消"
+                                                       Img:[UIImage imageNamed:@"status_error"]];
+    [alert show];
+}
 
 @end

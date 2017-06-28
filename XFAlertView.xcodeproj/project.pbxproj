@@ -15,6 +15,9 @@
 		65559E8E1F039AB400A79DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65559E8C1F039AB400A79DBD /* LaunchScreen.storyboard */; };
 		65559E991F039AB400A79DBD /* XFAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65559E981F039AB400A79DBD /* XFAlertViewTests.m */; };
 		65559EA41F039AB400A79DBD /* XFAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65559EA31F039AB400A79DBD /* XFAlertViewUITests.m */; };
+		65559EB61F039B0D00A79DBD /* UILabel+XFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65559EB31F039B0D00A79DBD /* UILabel+XFLabel.m */; };
+		65559EB71F039B0D00A79DBD /* XFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65559EB51F039B0D00A79DBD /* XFAlertView.m */; };
+		65559EB91F039B2300A79DBD /* QQ20170628-155001.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65559EB81F039B2300A79DBD /* QQ20170628-155001.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		65559E9F1F039AB400A79DBD /* XFAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65559EA31F039AB400A79DBD /* XFAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFAlertViewUITests.m; sourceTree = "<group>"; };
 		65559EA51F039AB400A79DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65559EB21F039B0D00A79DBD /* UILabel+XFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XFLabel.h"; sourceTree = "<group>"; };
+		65559EB31F039B0D00A79DBD /* UILabel+XFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XFLabel.m"; sourceTree = "<group>"; };
+		65559EB41F039B0D00A79DBD /* XFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAlertView.h; sourceTree = "<group>"; };
+		65559EB51F039B0D00A79DBD /* XFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAlertView.m; sourceTree = "<group>"; };
+		65559EB81F039B2300A79DBD /* QQ20170628-155001.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "QQ20170628-155001.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		65559E721F039AB400A79DBD = {
 			isa = PBXGroup;
 			children = (
+				65559EB81F039B2300A79DBD /* QQ20170628-155001.gif */,
 				65559E7D1F039AB400A79DBD /* XFAlertView */,
 				65559E971F039AB400A79DBD /* XFAlertViewTests */,
 				65559EA21F039AB400A79DBD /* XFAlertViewUITests */,
@@ -101,6 +110,7 @@
 		65559E7D1F039AB400A79DBD /* XFAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				65559EB11F039B0D00A79DBD /* XFAlertView */,
 				65559E811F039AB400A79DBD /* AppDelegate.h */,
 				65559E821F039AB400A79DBD /* AppDelegate.m */,
 				65559E841F039AB400A79DBD /* ViewController.h */,
@@ -138,6 +148,17 @@
 				65559EA51F039AB400A79DBD /* Info.plist */,
 			);
 			path = XFAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		65559EB11F039B0D00A79DBD /* XFAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				65559EB21F039B0D00A79DBD /* UILabel+XFLabel.h */,
+				65559EB31F039B0D00A79DBD /* UILabel+XFLabel.m */,
+				65559EB41F039B0D00A79DBD /* XFAlertView.h */,
+				65559EB51F039B0D00A79DBD /* XFAlertView.m */,
+			);
+			path = XFAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +269,7 @@
 			files = (
 				65559E8E1F039AB400A79DBD /* LaunchScreen.storyboard in Resources */,
 				65559E8B1F039AB400A79DBD /* Assets.xcassets in Resources */,
+				65559EB91F039B2300A79DBD /* QQ20170628-155001.gif in Resources */,
 				65559E891F039AB400A79DBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +298,8 @@
 				65559E861F039AB400A79DBD /* ViewController.m in Sources */,
 				65559E831F039AB400A79DBD /* AppDelegate.m in Sources */,
 				65559E801F039AB400A79DBD /* main.m in Sources */,
+				65559EB71F039B0D00A79DBD /* XFAlertView.m in Sources */,
+				65559EB61F039B0D00A79DBD /* UILabel+XFLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
